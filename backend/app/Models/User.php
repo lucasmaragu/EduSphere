@@ -10,7 +10,7 @@ class User extends Model
     use HasFactory, Notifiable;
 
     protected $fillable = [
-        'name', 'email', 'password', // agrega los campos que quieras guardar
+        'name', 'email', 'password', 
     ];
 
     public function roles()
